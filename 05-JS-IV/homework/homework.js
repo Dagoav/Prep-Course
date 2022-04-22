@@ -16,7 +16,6 @@ function crearGato(nombre, edad) {
   return cat;
 }
 
-
 function agregarPropiedad(objeto, property) {
   // Agrega una propiedad al objeto (argumento "objeto") con el valor `null`
   // Devuelve el objeto
@@ -26,7 +25,6 @@ function agregarPropiedad(objeto, property) {
   return objeto;
 }
 
-
 function invocarMetodo(objeto, metodo) {
   // "metodo" es una cadena que contiene el nombre de un método (funcion) en el objeto
   // Invoca ese método
@@ -35,7 +33,6 @@ function invocarMetodo(objeto, metodo) {
   // const method = String(metodo)
   return objeto[metodo]();
 }
-
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
@@ -73,8 +70,6 @@ function tieneEmail(usuario) {
   return usuario.email != undefined ? true : false;
 }
 
-
-
 function tienePropiedad(objeto, propiedad) {
   // Devuelve "true" si el objeto (parámetro "objeto") tiene una propiedad (key) cuyo nombre es igual al valor del argumento "propiedad"
   // "propiedad" es un string
@@ -102,7 +97,6 @@ function actualizarPassword(usuario, nuevaPassword) {
   usuario.password = nuevaPassword;
   return usuario;
 }
-
 
 function agregarAmigo(usuario, nuevoAmigo) {
   // "usuario" tiene una propiedad llamada "amigos" que es un array
