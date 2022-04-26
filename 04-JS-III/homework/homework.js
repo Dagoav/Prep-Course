@@ -143,7 +143,7 @@ function todosIguales(arreglo) {
   //Escribe tu código aquí
   const base = arreglo[0];
   const check_array = arreglo.filter(n => n != base ? false : true)
-  console.log(check_array);
+  // console.log(check_array);
   return check_array.length == arreglo.length ? true : false;
 }
 
