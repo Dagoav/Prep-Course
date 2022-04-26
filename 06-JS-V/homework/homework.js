@@ -44,7 +44,6 @@ function agregarStringInvertida() {
 
     return result.join("");
   }
-
 }
 
 // ---------------------------------------------------------------------------//
@@ -76,7 +75,6 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
   let person = new Persona(nombre, apellido, edad, dir);
-  console.log(person);
 
   return person;
 }
@@ -90,8 +88,6 @@ function agregarMetodo() {
 
   return Persona;
 }
-
-agregarMetodo()
 
 // No modificar nada debajo de esta línea
 // --------------------------------
