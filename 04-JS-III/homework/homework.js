@@ -131,7 +131,6 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  console.log();
   return String(n)[0] == 9
 }
 
@@ -143,7 +142,6 @@ function todosIguales(arreglo) {
   //Escribe tu código aquí
   const base = arreglo[0];
   const check_array = arreglo.filter(n => n != base ? false : true)
-  // console.log(check_array);
   return check_array.length == arreglo.length ? true : false;
 }
 
@@ -187,7 +185,7 @@ function breakStatement(numero) {
       break
     }
 
-    count++
+    count++;
     // console.log(result, count);
   }
   return result
@@ -214,9 +212,6 @@ function continueStatement(numero) {
   
   return result
 }
-
-test = continueStatement(-4)
-console.log(test);
 
 // No modificar nada debajo de esta línea
 // --------------------------------
